@@ -45,4 +45,9 @@
 	<aop:config>
 		<aop:advisor advice-ref="txAdvice" pointcut="execution(* *..*Service.*(..))" />
 	</aop:config>
+	<!-- メッセージソース -->
+	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames" value="messages" />
+	</bean>
 </beans>
