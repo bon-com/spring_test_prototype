@@ -91,12 +91,7 @@
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.9.9</version>
 		</dependency>
-				<!-- Beanバリデーションの設定 -->
-		<dependency>
-			<groupId>org.hibernate.validator</groupId>
-			<artifactId>hibernate-validator</artifactId>
-			<version>6.1.7.Final</version>
-		</dependency>
+		
 		
 		<!-- テスト用資材 -->
 		<dependency>
